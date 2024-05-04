@@ -139,12 +139,12 @@ import React from "react";
 // import Project from "./components/pages/Project";
 // import { Route, Routes } from "react-router-dom";
 // import "./components/Portfolio/About.css";
-// import LifeCycle from "./LifeCycle";
+import LifeCycle from "./LifeCycle";
 import Effect from "./Effect";
 import Data from "./Data";
-// import Life from "./Life";
-// import State from "./State";
-// import Map from "./Map.jsx";
+import Life from "./Life";
+import State from "./State";
+import Map from "./Map.jsx";
 // import Media from "./Media";
 // import Store from "./Store";
 // import Project from "./components/pages/Project";
@@ -167,14 +167,14 @@ function App() {
         <Route path="/inbox/mailB" element={<MailB />} />
         <Route path="*" element={<NotFound />} />
       </Routes> */}
-      {/* <Store />
-      <Media />
+      {/* <Store /> */}
+      {/* // <Media /> */}
       <Map />
-      <State /> */}
-      {/* <LifeCycle /> */} {/*constructor*/}
-      {/* <LifeCycle props="hello" age={30} /> */} {/*get derived method*/}
-      {/* <LifeCycle /> */}
-      {/* <Life /> */}
+      <State />
+      {/* <LifeCycle /> constructor */}
+      {/* <LifeCycle props="hello" age={30} /> get derived method */}
+      <LifeCycle />
+      <Life />
       <Effect />
       <Data />
     </div>
